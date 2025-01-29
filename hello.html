@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson One of git</title>
+</head>
+<body>
+    <h2>How does code move using Git</h2>
+        <p>Code lives in 4 areas:<br>
+            1. The working directory
+            2. The Index
+            3. The Local repo
+            4. The Remote repo
+        </p>
+    <h3>The working directory:</h3>
+        <p>
+            This is where you make changes directly to local code.<br>
+            Imagine it as the creation point.
+        </p>
+    <h3>The Index:</h3>
+        <p>
+            This is where changes are added for the next commit.<br>
+            Imagine it as the bridge between the working directory and the local repo.
+        </p>
+    <h3>The local repo:</h3>
+        <p>
+            This is where commits of code are tracked by Git for security purposes. However this is done locally.<br>
+            Imagine this as the introvert twin.
+        </p>
+    <h3>The remote repo:</h3>
+        <p>
+            This is where code can be pushed for collaborating with other developers and are tracked by Git. This is done online.<br>
+            Imagine this as the extrovert twin.<BR>
+        <b>NB:</b><BR>
+            When pushing local changes to a remote repo for the first time, we use the command (git push --set-upstream origin master) so as to inform the introvert twin that it can share its stories with its extrovert twin only.
+        </P>
+    <h2>CLONING A REMOTE REPO</h2>
+        <p>
+            Use the command(git clone "repo_URL")
+            We can decide to create a branch other than the default master branch using the git command(git checkout -b "new_branch_name")
+        </p>
+</body>
+</html>
